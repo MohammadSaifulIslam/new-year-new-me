@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* common css end */
+/* bannar part css start */
+.bannar{
+    background-image: url(../images/banner/banner2.png);
+    padding: 200px ;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.bannar-text{
+    width: 500px;
+}
+.bannar-text h1{
+    font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+}
+.common-description{
+    font-size: 16px;
+line-height: 26px;
+color: #444343;
+}
+.primary-btn {
+
+}
+.primary-btn{
+    font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+background: #F15B22;
+border-radius: 5px;
+border: 0;
+padding: 20px 25px;
+margin-top: 30px;
+}
+/* bannar part css end */
+/* .my-failure-part part css start */
+main{
+    margin: 0 200px;
+}
+.my-failure-part{
+    display: flex;
+    gap: 85px;
+    justify-content: space-between;
+    margin-top: 100px;
+    text-align: left;
+}
+.failure-image img{
+    width: 400px;
+}
+.failure-text{
+    padding-top: 100px;
+my-part
+    font-weight: 700;
+font-size: 30px;
+}
+.failure-text p{
+    font-size: 16px;
+line-height: 26px;
+color: #444343;
+}
+.failure-description{
+    margin: 25px 0;
+}
+/* .my-failure-part part css end */
+/* my-part part css start */
+.my-plan{
+    text-align: center;
+}
+.my-plan-content{
+    display: flex;
+    justify-content: space-between;
+}
+/* my-part part css end */
+/* bannar part css start */
+/* bannar part css end */
