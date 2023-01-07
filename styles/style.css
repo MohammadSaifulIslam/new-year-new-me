@@ -80,8 +80,39 @@ main {
     margin: 25px 0;
 }
 
+.failure-text p img {
+    width: 12px;
+    line-height: 18px;
+}
+
 /* .my-failure-part part css end */
-/* my-part part css start */
+/* my-skill part css start */
+.my-skill {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.skill-info img {
+    width: 50px;
+}
+
+.skill-info h3 {
+    margin: 20px 0 10px;
+}
+
+.skill-info p {
+    color: #444343;
+}
+
+/* my-skill part css start */
+/* my-plan part css start */
 .my-plan {
     text-align: center;
     margin: 100px 0;
@@ -93,7 +124,11 @@ main {
     margin-top: 50px;
 }
 
-/* my-part part css end */
+.plan-info h4 {
+    margin: 20px 0 10px;
+}
+
+/* my-plan part css end */
 /* contact part css start */
 .contact {
     background: url(../images/watch.png);
@@ -112,7 +147,6 @@ main {
     color: #FFFFFF;
     margin-bottom: 30px;
 }
-
 .secondary-btn {
     font-weight: 600;
     font-size: 20px;
@@ -123,7 +157,6 @@ main {
     padding: 20px 25px;
 
 }
-
 /* contact part css end */
 /* footer part css start */
 .footer {
@@ -133,17 +166,14 @@ main {
     background: #151414;
     color: #FFFFFF;
 }
-
-.footer-info h3{
-font-weight: 700;
-font-size: 45px;
-margin-bottom: 15px;
+.footer-info h3 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 15px;
 }
-
 .footer-descript p {
     margin-bottom: 20px;
 }
-
 .footer-descript span {
     display: block;
     margin-bottom: 15px;
@@ -151,11 +181,11 @@ margin-bottom: 15px;
 .footer-icon img {
     margin-right: 10px;
 }
-.footer-info h4{
+.footer-info h4 {
     font-weight: 600;
     font-size: 25px;
 }
-.footer-info input{
+.footer-info input {
     padding: 20px;
     border: 1px solid #F3F3F3;
     background: transparent;
@@ -165,9 +195,3 @@ margin-bottom: 15px;
 }
 
 /* footer part css end */
-
-
-
-
-/* bannar part css start */
-/* bannar part css end */
