@@ -60,10 +60,8 @@ main{
 }
 .failure-text{
     padding-top: 100px;
-my-part
-    font-weight: 700;
-font-size: 30px;
 }
+
 .failure-text p{
     font-size: 16px;
 line-height: 26px;
@@ -76,10 +74,12 @@ color: #444343;
 /* my-part part css start */
 .my-plan{
     text-align: center;
+    margin: 100px 0;
 }
 .my-plan-content{
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 /* my-part part css end */
 /* bannar part css start */
